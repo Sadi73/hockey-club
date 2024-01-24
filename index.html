@@ -7,6 +7,26 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Hockey's</title>
+    <style>
+        .progress-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background:
+                radial-gradient(closest-side, rgb(255, 255, 255) 70%, transparent 80% 100%),
+                conic-gradient(rgb(233, 60, 60) 87%, rgb(218, 218, 223) 0%);
+        }
+
+        .progress-bar::before {
+            content: "87%";
+            font-size: 20px;
+            font-weight: 700;
+        }
+    </style>
 </head>
 
 <body>
@@ -115,6 +135,46 @@
                 <h1 class="text-3xl font-extrabold">Professional Hockeys Club</h1>
                 <p class="">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
                     urna in sit nullam proin. </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 my-10">
+                <div class="border p-5 text-center space-y-3">
+                    <div class="flex justify-center">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                            aria-valuemax="100">
+                        </div>
+                    </div>
+                    <h1 class="text-2xl font-bold">Prayer Facility</h1>
+                    <p class="text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="border p-5 text-center space-y-3">
+                    <div class="flex justify-center">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                            aria-valuemax="100">
+                        </div>
+                    </div>
+                    <h1 class="text-2xl font-bold">Prayer Facility</h1>
+                    <p class="text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="border p-5 text-center space-y-3">
+                    <div class="flex justify-center">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                            aria-valuemax="100">
+                        </div>
+                    </div>
+                    <h1 class="text-2xl font-bold">Prayer Facility</h1>
+                    <p class="text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="border p-5 text-center space-y-3">
+                    <div class="flex justify-center">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                            aria-valuemax="100">
+                        </div>
+                    </div>
+                    <h1 class="text-2xl font-bold">Prayer Facility</h1>
+                    <p class="text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+
             </div>
         </section>
 
